@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/facerobot/static/css/main.d9faf31b.chunk.css",
+    "main.js": "/facerobot/static/js/main.ab7df801.chunk.js",
+    "main.js.map": "/facerobot/static/js/main.ab7df801.chunk.js.map",
+    "runtime-main.js": "/facerobot/static/js/runtime-main.e9cef648.js",
+    "runtime-main.js.map": "/facerobot/static/js/runtime-main.e9cef648.js.map",
+    "static/css/2.61068532.chunk.css": "/facerobot/static/css/2.61068532.chunk.css",
+    "static/js/2.96626bc4.chunk.js": "/facerobot/static/js/2.96626bc4.chunk.js",
+    "static/js/2.96626bc4.chunk.js.map": "/facerobot/static/js/2.96626bc4.chunk.js.map",
+    "index.html": "/facerobot/index.html",
+    "static/css/2.61068532.chunk.css.map": "/facerobot/static/css/2.61068532.chunk.css.map",
+    "static/css/main.d9faf31b.chunk.css.map": "/facerobot/static/css/main.d9faf31b.chunk.css.map",
+    "static/js/2.96626bc4.chunk.js.LICENSE.txt": "/facerobot/static/js/2.96626bc4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9cef648.js",
+    "static/css/2.61068532.chunk.css",
+    "static/js/2.96626bc4.chunk.js",
+    "static/css/main.d9faf31b.chunk.css",
+    "static/js/main.ab7df801.chunk.js"
+  ]
+}
