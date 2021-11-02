@@ -2,23 +2,29 @@ import React, {useState} from "react";
 import {robots} from "./robots"
 import CardList from "./components/CardList"
 import SearchBox from "./components/SearchBox"
+import "./App.css"
 import 'tachyons'
 
 
 
 const App = () =>{
-  const [searchFild, setSearchField] = useState(robots)
+  const [searchField, setSearchField] = useState("")
 
   const onSearchChange = (event) => {
-    console.log(event.target.value)
+      setSearchField(event.target.value)
   }
 
+
+  const filteredRobots = robots.filter(robot =>{
+    return robot.name.toLowerCase().includes(searchField.toLowerCase())
+  })
   return(
+    
     <>
     <div className='tc'>
-        <h1>RobotFriends</h1>
-        <SearchBox searchChange={onSearchChange} /> 
-        <CardList robots={searchFild} />
+        <h1 className="f1">Robot Friends</h1>
+        <SearchBox searchChange={onSearchChange} searchFields={setSearchField} /> 
+        <CardList robots={filteredRobots} />
     </div>
     </>
   )
